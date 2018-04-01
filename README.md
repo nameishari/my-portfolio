@@ -1,3 +1,5 @@
+# angular-my-portfolio
+My Resume Website crafted using angular 5
 # HariPortfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.

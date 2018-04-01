@@ -1,20 +1,44 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+ <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i> <a href="mailto:hariharakumar88@example.com">hariharakumar88@example.com</a>
+        <i class="fa fa-phone"></i> +91 996 223 7400
+      </div>
+      <div class="social-links float-right">
+        <a href="https://www.linkedin.com/in/haritummala" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.quora.com/profile/Hari-Hara-Kumar-4" class="quora"><i class="fa fa-quora"></i></a>
+        <a href="https://github.com/h4hari" class="github"><i class="fa fa-github "></i></a>
+        <a href="https://www.facebook.com/harakumar.smile" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://plus.google.com/u/0/+HariHaraKumar88" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="https://www.instagram.com/name_is_hari/" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
 
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a routerLink="/">{{name}}, <span>{{caption}}.</span></a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li routerLinkActive="menu-active" [routerLinkActiveOptions]="{exact : true}"><a routerLink="/">About</a></li>
+          <li routerLinkActive="menu-active"><a routerLink="/education">Education</a></li>
+          <li routerLinkActive="menu-active"><a routerLink="/experience">Experience</a></li>
+          <li routerLinkActive="menu-active"><a routerLink="/skills">Skills</a></li>
+          <li routerLinkActive="menu-active"><a routerLink="/achievements">Achievements</a></li>
+          <li routerLinkActive="menu-active"><a routerLink="/contact">Contact</a></li>
+          <li routerLinkActive="menu-active"><a routerLink="/gallery">Gallery</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+      <router-outlet></router-outlet>
+    </div>
+  </header>
