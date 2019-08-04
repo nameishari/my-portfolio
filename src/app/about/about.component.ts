@@ -11,7 +11,7 @@ import {ISkills} from './../services/ISkills';
 export class AboutComponent implements OnInit {
   age: number;
   
-  currentAddress: string = "Chennai, Tamilnadu, India - 600097";
+  currentAddress: string = "Berlin, Germany - 10781";
   _resumeUrl : IAbilities[]; 
   downloadResume : String;
   constructor(private skillsService: SkillsService) { }

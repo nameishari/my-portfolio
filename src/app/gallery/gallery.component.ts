@@ -11,7 +11,7 @@ export class GalleryComponent implements OnInit {
 
 
  ngOnInit() {      
-    this.loadScript('assets/main.js');
+    this.loadScript('assets/gallery.js');
 }
 
  loadScript(url) {

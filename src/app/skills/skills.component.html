@@ -4,348 +4,62 @@
             “Learning never exhausts the mind.”<br>-
             Leonardo da Vinci
           </p>
-        <div class="skillsss">
-            <p class="skillHeading">Specialities:</p>
-            <div class="row">
-            <div class="col-md-6">
-                <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Specialities")'>
-                    <li>
-                      <span class="ability-title">{{ablty.name}}</span>
-                      <span class="ability-score"> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                      </span>
-                    </li>
-                </ul>
+          <div class="card">
+            <div class="card-header">
+              Programming Languages
             </div>
-            <div class="col-md-6">
-                <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Specialities")'>
-                    <li>
-                      <span class="ability-title">{{ablty.name}}</span>
-                      <span class="ability-score"> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                      </span>
-                    </li>
-                </ul>
+            <div class="card-body">
+                    <div class="row text-center">
+                            <div class="img-right-padding"><img alt="" src="../../assets/images/Java.svg" class="responsive-img">Java</div>
+                            <div class="img-right-padding"><img alt="" src="../../assets/images/Python.png" class="responsive-img">Python</div>
+                            <div class="img-right-padding"><img alt="" src="../../assets/images/js.png" class="responsive-img">Java Script</div>
+                            <div class="img-right-padding"><img alt="" src="../../assets/images/ts.png" class="responsive-img">Type Script</div>
+                     </div>                     
             </div>
           </div>
-          </div>
-        <div class="skillsss">
-            <p class="skillHeading">Programming Languages:</p>
-            <div class="row">
-            <div class="col-md-6">
-                <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Programming Languages")'>
-                    <li>
-                      <span class="ability-title">{{ablty.name}}</span>
-                      <span class="ability-score"> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                      </span>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Programming Languages")'>
-                    <li>
-                      <span class="ability-title">{{ablty.name}}</span>
-                      <span class="ability-score"> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                      </span>
-                    </li>
-                </ul>
-            </div>
-          </div>
-          </div>
-          <div class="skillsss">
-              <p class="skillHeading">Web Technologies:</p>
-              <div class="row">
-              <div class="col-md-6">
-                  <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Web Technologies")'>
-                      <li>
-                        <span class="ability-title">{{ablty.name}}</span>
-                        <span class="ability-score"> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                        </span>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-md-6">
-                  <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Web Technologies")'>
-                      <li>
-                        <span class="ability-title">{{ablty.name}}</span>
-                        <span class="ability-score"> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                        </span>
-                      </li>
-                  </ul>
-              </div>
-            </div>
-            </div>
-            <div class="skillsss">
-                <p class="skillHeading">Java Frameworks & Technologies:</p>
-                <div class="row">
-                <div class="col-md-6">
-                    <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Java Frameworks & Technologies")'>
-                        <li>
-                          <span class="ability-title">{{ablty.name}}</span>
-                          <span class="ability-score"> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                          </span>
-                        </li>
-                    </ul>
+          <div class="card">
+                <div class="card-header">
+                  Front End Development
                 </div>
-                <div class="col-md-6">
-                    <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Java Frameworks & Technologies")'>
-                        <li>
-                          <span class="ability-title">{{ablty.name}}</span>
-                          <span class="ability-score"> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                            <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                          </span>
-                        </li>
-                    </ul>
+                <div class="card-body">
+                        <div class="row text-center">
+                                <div ><img alt="" src="../../assets/images/html.ico" class="responsive-img">HTML 5</div>
+                                <div class="img-right-padding"><img alt="" src="../../assets/images/css.png" class="responsive-img">CSS 3</div>
+                                <div class="img-right-padding"><img alt="" src="../../assets/images/angular.png" class="responsive-img">Angular 2+</div>
+                                <div class="img-right-padding"><img alt="" src="../../assets/images/bootstrap.png" class="responsive-img">Bootstrap</div>
+                                <div class="img-right-padding"><img alt="" src="../../assets/images/primeng.png" class="responsive-img">PrimeNG</div>
+                         </div>                     
                 </div>
               </div>
-              </div>
-              <div class="skillsss">
-                  <p class="skillHeading">Frameworks:</p>
-                  <div class="row">
-                  <div class="col-md-6">
-                      <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Frameworks")'>
-                          <li>
-                            <span class="ability-title">{{ablty.name}}</span>
-                            <span class="ability-score"> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                            </span>
-                          </li>
-                      </ul>
-                  </div>
-                  <div class="col-md-6">
-                      <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Frameworks")'>
-                          <li>
-                            <span class="ability-title">{{ablty.name}}</span>
-                            <span class="ability-score"> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                              <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                            </span>
-                          </li>
-                      </ul>
-                  </div>
-                </div>
-                </div>
-                <div class="skillsss">
-                    <p class="skillHeading">Databases & Languages:</p>
-                    <div class="row">
-                    <div class="col-md-6">
-                        <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Databases & Languages")'>
-                            <li>
-                              <span class="ability-title">{{ablty.name}}</span>
-                              <span class="ability-score"> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                              </span>
-                            </li>
-                        </ul>
+              <div class="card">
+                    <div class="card-header">
+                      Backend | Frameworks
                     </div>
-                    <div class="col-md-6">
-                        <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Databases & Languages")'>
-                            <li>
-                              <span class="ability-title">{{ablty.name}}</span>
-                              <span class="ability-score"> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                              </span>
-                            </li>
-                        </ul>
+                    <div class="card-body">
+                            <div class="row text-center">
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/spring.png" class="responsive-img">Spring 5</div>
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/spring boot.png" class="responsive-img">Spring Boot</div>
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/Java.svg" class="responsive-img">J2EE <br/>(JSF 2.0+)</div>
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/hibernate.png" class="responsive-img">Hibernate</div>
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/primefaces.png" class="responsive-img">Prime Faces</div>
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/flask.jpg" class="responsive-img">Flask</div>
+                                    <div class="img-right-padding"><img alt="" src="../../assets/images/node.png" class="responsive-img">Node.js</div>
+                             </div>                     
                     </div>
                   </div>
+                  <div class="card">
+                        <div class="card-header">
+                          Databases/NoSql
+                        </div>
+                        <div class="card-body">
+                                <div class="row text-center">
+                                        <div class="img-right-padding"><img alt="" src="../../assets/images/oracle.png" class="responsive-img">ORACLE</div>
+                                        <div class="img-right-padding"><img alt="" src="../../assets/images/postgresql.png" class="responsive-img">PostgreSQL</div>
+                                        <div class="img-right-padding"><img alt="" src="../../assets/images/elastic.png" class="responsive-img">Elastic Search</div>
+                                        <div class="img-right-padding"><img alt="" src="../../assets/images/mongo.png" class="responsive-img">Mongo DB</div>
+                                 </div>                     
+                        </div>
                   </div>
-                  <div class="skillsss">
-                      <p class="skillHeading">Data Visualization Libraries:</p>
-                      <div class="row">
-                      <div class="col-md-6">
-                          <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Data Visualization Libraries")'>
-                              <li>
-                                <span class="ability-title">{{ablty.name}}</span>
-                                <span class="ability-score"> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                </span>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-md-6">
-                          <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Data Visualization Libraries")'>
-                              <li>
-                                <span class="ability-title">{{ablty.name}}</span>
-                                <span class="ability-score"> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                  <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                </span>
-                              </li>
-                          </ul>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="skillsss">
-                        <p class="skillHeading">Cloud Services:</p>
-                        <div class="row">
-                        <div class="col-md-6">
-                            <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Cloud Services")'>
-                                <li>
-                                  <span class="ability-title">{{ablty.name}}</span>
-                                  <span class="ability-score"> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                  </span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Cloud Services")'>
-                                <li>
-                                  <span class="ability-title">{{ablty.name}}</span>
-                                  <span class="ability-score"> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                    <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                  </span>
-                                </li>
-                            </ul>
-                        </div>
-                      </div>
-                      </div>
-                      <div class="skillsss">
-                          <p class="skillHeading">Tools & Utilities:</p>
-                          <div class="row">
-                          <div class="col-md-6">
-                              <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Tools & Utilities")'>
-                                  <li>
-                                    <span class="ability-title">{{ablty.name}}</span>
-                                    <span class="ability-score"> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                    </span>
-                                  </li>
-                              </ul>
-                          </div>
-                          <div class="col-md-6">
-                              <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Tools & Utilities")'>
-                                  <li>
-                                    <span class="ability-title">{{ablty.name}}</span>
-                                    <span class="ability-score"> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                      <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                    </span>
-                                  </li>
-                              </ul>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="text-center project-referal">
-                                <p class="paragraph-font center">
-                                    This website is crafted using Angualr 5, Firebase and AWS. Find this project on github <a target="_blank"
-                                        href="https://github.com/h4hari/angular-my-portfolio"
-                                        class="btn btn-default btn-sm downbtn adjust_btn"
-                                        style="background-color: #00b386; color: #fff; border-radius: 10px; margin-left: 10px;"><i
-                                        class="fa fa-code fa-fw"></i> <span class="network-name">Click
-                                            Here!</span></a>
-                                </p>
-                            </div>
-                        <hr/>
-                       
-                        <div class="skillsss">
-                            <p class="skillHeading"style="padding-top: 0px;">Languages:</p>
-                            <div class="row">
-                            <div class="col-md-6">
-                                <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("1","Languages")'>
-                                    <li>
-                                      <span class="ability-title">{{ablty.name}}</span>
-                                      <span class="ability-score"> 
-                                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                          <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                      </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="no-bullets" id="feSkillsAddLeft" *ngFor='let ablty of getAbilities("2","Languages")'>
-                                    <li>
-                                      <span class="ability-title">{{ablty.name}}</span>
-                                      <span class="ability-score"> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 1}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 2}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 3}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating >= 4}" ></span> 
-                                        <span [ngClass] = "{'fa': true, 'fa-star': true, 'checked': ablty.rating == 5}" ></span> 
-                                      </span>
-                                    </li>
-                                </ul>
-                            </div>
-                          </div>
-                          </div>  <br/><br/>
 
     </div>
 </div>

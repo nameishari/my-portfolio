@@ -1,50 +1,22 @@
-.ability-score{
-    float: right;
-}
-ul.no-bullets {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-}
-#abilities ul>li .ability-title {
-	display: inline-block;
-	width: 60%;
-    font-size: 14px;
-    padding-left: 5px;
-    text-align: left;
-    font-family: 'Libre Baskerville', serif;
-}
-#abilities ul>li:hover {
-	background: #F2F2F2;
-}
-#abilities ul>li {
-	min-height: 30px;
-	padding: 3px 0px;
-}
-#abilities ul>li:hover .ability-score .fa-star {
-	margin-left: 2px;
-}
-#abilities ul>li .ability-score .fa-star {
-	color: #DFE0E0;
-	font-size: 16px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-#abilities ul>li .ability-score .fa-star.checked {
+.card-header {
+	padding: 0.4rem 0.80rem;
+	font-family: rancho;
+    font-size: 26px;
 	color: #00b386;
+	background: #fff;
 }
-
-hr {
-    border: 0;
-    height: 1px;
-    border-top: 1px solid #b0b5b5;
-    margin-top: 17px;
+.card-body .responsive-img {
+	margin: 8px 8px 0px 8px;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
-.center {
-	text-align: center;
+.img-right-padding {
+	padding-right: 20px;
 }
-.project-referal {
-	padding-top: 12px;
+.card{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	margin-bottom: 45px;
 }

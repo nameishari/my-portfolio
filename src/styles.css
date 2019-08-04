@@ -210,7 +210,7 @@ body {
   }
   
   .nav-menu > li {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   
   .nav-menu ul {
@@ -389,7 +389,7 @@ h3.adjust_text{
   color: #00b386;
 }
 .padding-needed{
-  padding-top: 10px;
+  padding-top: 16px;
 }
 p.lead {
   text-align: center;
@@ -411,3 +411,6 @@ p.lead {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.align-left {
+  text-align: left;
+}
