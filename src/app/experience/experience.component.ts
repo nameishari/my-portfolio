@@ -12,7 +12,7 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit() {
     var dateDiff = this.utilsservice.dateDiff("2015-06-30");
-    this.experience = dateDiff.years + " Years "+ dateDiff.months+ " Months " + dateDiff.days + " Days";
+    this.experience = dateDiff.years + " Years "+ dateDiff.months+ " Month(s) " + dateDiff.days + " Day(s)";
   }
 
 }
